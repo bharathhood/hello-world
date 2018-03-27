@@ -202,7 +202,7 @@ void init_sms()
 {
   Serial.println("AT+CMGF=1");
   delay(400);
-  Serial.println("AT+CMGS=\"+91*******\"");   // use your 10 digit cell no. here
+  Serial.println("AT+CMGS=\"+91*****\"");   // use your 10 digit cell no. here
   delay(400);
 }
 
